@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>e93eb2e1-cb48-4eea-8657-b0968ea43be7</UserSecretsId>
+    <StartupObject>odata2openapi.Program</StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="2.1.1" />
+    <PackageReference Include="Microsoft.IdentityModel.Clients.ActiveDirectory" Version="4.5.1" />
+    <PackageReference Include="Microsoft.OData.Edm" Version="7.5.0" />
+    <PackageReference Include="Microsoft.OpenApi.Readers" Version="1.1.4" />
+    <PackageReference Include="NJsonSchema" Version="10.0.24" />
+    <PackageReference Include="NSwag.AspNetCore" Version="13.1.1" />
+    <PackageReference Include="NSwag.CodeGeneration.CSharp" Version="13.1.1" />
+    <PackageReference Include="NSwag.Core" Version="13.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.OData.OpenAPI\Microsoft.OData.OpenAPI.csproj" />
+  </ItemGroup>
+
+</Project>

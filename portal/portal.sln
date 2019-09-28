@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "portal", "portal.csproj", "{9FDFFF8A-9AE8-4505-BE58-04FA92D2A10B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicsAutorest", "..\interfaces\dynamics\DynamicsAutorest.csproj", "{586DAF46-736F-4CFA-8BC9-F3942EEC9BBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FDFFF8A-9AE8-4505-BE58-04FA92D2A10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDFFF8A-9AE8-4505-BE58-04FA92D2A10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDFFF8A-9AE8-4505-BE58-04FA92D2A10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDFFF8A-9AE8-4505-BE58-04FA92D2A10B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{586DAF46-736F-4CFA-8BC9-F3942EEC9BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586DAF46-736F-4CFA-8BC9-F3942EEC9BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586DAF46-736F-4CFA-8BC9-F3942EEC9BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586DAF46-736F-4CFA-8BC9-F3942EEC9BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE461069-CB88-4B6F-AA61-46C50D51223B}
+	EndGlobalSection
+EndGlobal
