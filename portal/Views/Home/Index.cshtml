@@ -2,9 +2,21 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">D365 Demo: Feedback Form</h1>
-    <h2>Microsoft Dynamics 365 CE</h2>
-    <p> Form Example</p>
-    <form action="api/file" method="post" enctype="multipart/form-data"><input type="file" name="file"/><input type="submit" value="Upload" /></form>
-</div>
+    <div class="text-center">
+        <h1 class="display-4">D365 Demo: Feedback Form</h1>
+        <h2>Microsoft Dynamics 365 CE</h2>
+        <p> Form Example</p>
+        <div class="text-left">
+            <form method="post">
+
+                <label for="summary">Summary</label>
+                <input type="text" name="summary" size="80" />
+                <br />
+                <label for="description">Description</label>
+                <textarea name="description" cols="80" rows="5"></textarea>
+                <br />
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </div>
+    

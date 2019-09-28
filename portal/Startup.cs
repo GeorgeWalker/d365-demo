@@ -1,4 +1,4 @@
-﻿using Gov.Jag.Interfaces.SharePoint;
+﻿
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
@@ -36,9 +36,7 @@ namespace portal
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            // add SharePoint.
 
-            services.AddTransient(_ => new SharePointFileManager(Configuration));
 
             // various security options
             services.AddMvc(opts =>

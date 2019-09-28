@@ -19,7 +19,7 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\interfaces\dynamics\DynamicsAutorest.csproj" />
+    <ProjectReference Include="..\interfaces\dynamics-simple\dynamics-simple.csproj" />
   </ItemGroup>
 
 </Project>

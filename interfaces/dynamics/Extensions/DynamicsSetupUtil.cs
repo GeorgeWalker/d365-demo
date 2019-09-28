@@ -119,8 +119,9 @@ namespace Dynamics
         /// </summary>
         /// <param name="Configuration"></param>
         /// <returns></returns>
-        public static DynamicsClient SetupDynamics(IConfiguration Configuration)
+        public static void SetupDynamics(IConfiguration Configuration)
         {
+            /*
             string dynamicsOdataUri = Configuration["DYNAMICS_ODATA_URI"]; // Dynamics ODATA endpoint
 
             if (string.IsNullOrEmpty(dynamicsOdataUri))
@@ -147,6 +148,7 @@ namespace Dynamics
             }
 
             return client;
+            */
         }
     }
 }

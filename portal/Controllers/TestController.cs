@@ -5,7 +5,7 @@ using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using System;
-using dynamics;
+//using dynamics;
 using System.Threading.Tasks;
 using System.Net.Http;
 using System.Net;
@@ -37,7 +37,7 @@ namespace portal.Controllers
         public async Task<ActionResult> Test()
         {
             _logger.LogError("Testing Dynamics");
-
+            /*
             var client = DynamicsClient.GenerateClient(Configuration);
 
             string url = "https://devorg.dev.jag.gov.bc.ca/api/data/v9.0/WhoAmI";
@@ -55,6 +55,8 @@ namespace portal.Controllers
 
 
             return Content(_responseContent2);
+            */
+            return new OkResult();
 
         }
 
